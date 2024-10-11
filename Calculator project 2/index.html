@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="head">Calculator Project</h1>
+    </header>
+        <main id="Calculator">
+
+                <form action="" onsubmit="return false">
+                            <input type="number" placeholder="enter number1" id="input1">
+                            <select name="operator" id="operator">
+                            <option value="add">+</option>
+                            <option value="subtract">-</option>
+                            <option value="divide">/</option>
+                            <option value="multiply">*</option>
+                            <option value="exponential">**</option>
+                            </select>
+                    
+                        <input type="number" placeholder="enter number2" id="input2">
+                            
+                        <button onclick="calculator()" type="submit">submit</button>
+                </form> 
+            <h2 id="result">Result: 0</h2>
+        </main>
+    <script src="index.js"></script>
+</body>
+</html>
